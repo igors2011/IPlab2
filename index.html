@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ФАН-КЛУБ WINX</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-mobile.css">
+</head>
+
+<body>
+  <nav>
+    <div class="mobile-logo"><img src="img/logo.png"></div>
+    <div class="header">Меню</div>
+    <div class="links">
+      <a class="menupoint" href="#fairies">Феи</a>
+      <a class="menupoint" href="#strength">Силы</a>
+      <a class="menupoint" href="#comment">Комментарий</a>
+    </div>
+  </nav>
+  <main>
+    <div class="logo-wrapper">
+      <center><img src="img/logo.png"></center>
+    </div>
+    <div class="fairies-wrapper">
+      <a id="fairies"></a>
+      <h1>Феи</h1>
+      <div class="content">
+        <div>
+          <div class="fairies-logo"><img src="img/блум.png"/></div>
+          <div class="fairies-text">Блум</div>
+        </div>
+        <div>
+          <div class="fairies-logo"><img src="img/стелла.png"/></div>
+          <div class="fairies-text">Стелла</div>
+        </div>
+        <div>
+          <div class="fairies-logo"><img src="img/флора.png"/></div>
+          <div class="fairies-text">Флора</div>
+        </div>
+        <div>
+          <div class="fairies-logo"><img src="img/лейла.png"/></div>
+          <div class="fairies-text">Лейла</div>
+        </div>
+        <div>
+          <div class="fairies-logo"><img src="img/текна.png"/></div>
+          <div class="fairies-text">Текна</div>
+        </div>
+        <div>
+          <div class="fairies-logo"><img src="img/муза.png"/></div>
+          <div class="fairies-text">Муза</div>
+        </div>
+      </div>
+    </div>
+    <div class="strength-wrapper">
+      <a id="strength"></a>
+      <div class="content">
+        <table>
+          <thead>
+            <tr>
+              <th>Фея</th>
+              <th>Происхождение</th>
+              <th>Силы</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Блум</td>
+              <td>Домино</td>
+              <td>Огня дракона</td>
+            </tr>
+            <tr>
+              <td>Стелла</td>
+              <td>Солярия</td>
+              <td>Солнца и луны</td>
+            </tr>
+            <tr>
+              <td>Флора</td>
+              <td>Линфея</td>
+              <td>Природа</td>
+            </tr>
+            <tr>
+              <td>Лейла</td>
+              <td>Андрос</td>
+              <td>Волн морфикс</td>
+            </tr>
+            <tr>
+              <td>Текна</td>
+              <td>Зенит</td>
+              <td>Технологий</td>
+            </tr>
+            <tr>
+              <td>Муза</td>
+              <td>Мелодия</td>
+              <td>Музыки</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="comment-wrapper">
+      <form>
+        <h1>Оставить комментарий</h1>
+        <div class="content">
+          <div class="field-wrapper">
+            <label for="comment" class="input-label">Комментарий</label>
+            <textarea name="comment" id="comment" placeholder="Что вы думаете о сайте?"></textarea>
+          </div>
+          <div class="field-wrapper">
+            <label for="username" class="input-label">Имя</label>
+            <input type="text" name="username" id="username" placeholder="Как вас зовут?" />
+          </div>
+        </div>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+  </main>
+  <script src="js/site.js"></script>
+  <script src="js\sweetalert.min.js"></script>
+  </script>
+</body>
+
+</html>
